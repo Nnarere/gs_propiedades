@@ -1,0 +1,281 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Assistant&family=Signika:wght@300&display=swap");
+body {
+  background-color: #333333 !important; }
+
+/*NAVBAR*/
+.seccionNav {
+  position: sticky !important;
+  z-index: 9999 !important;
+  top: 0px;
+  background-color: #d6d6d6!important;
+  font-family: 'roboto';
+  font-size: 19px; 
+
+}
+  .seccionNav .seccionNav_nav {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 100; }
+
+  .seccionNav .seccionNav__nav--logo {
+    width: 140px; }
+
+/*INICIO*/
+.inicio0 {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+.inicio0__frase {
+  color: whitesmoke;
+  font-family: "roboto", sans-serif;
+  font-weight: 700;
+  font-size: 48px; }
+
+.inicio0__frase--imagen {
+  width: 50px; }
+
+.inicio2__titulo {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 40px;
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-top: solid #eb3d3d;
+  margin-top: 30px; }
+
+.inicio2__texto {
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 90px; }
+
+.inicio2__imagen {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center; }
+
+.inicio2__imagen--logo {
+  width: 50px; }
+
+.row--last {
+  border-bottom: solid #eb3d3d;
+  margin-bottom: 30px; }
+
+/*Quien Somos*/
+.gloria {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: whitesmoke; }
+  .gloria .gloria__foto {
+    animation: fadeInDown;
+    animation-duration: 1s;
+    text-align: center; }
+    .gloria .gloria__foto .gloria__foto--imagen {
+      border-radius: 200px 200px 0px 200px;
+      -moz-border-radius: 200px 200px 0px 200px;
+      -webkit-border-radius: 200px 200px 0px 200px;
+      border: 0px none #000000;
+      width: 280px; }
+  .gloria .gloria__texto--nombre {
+    text-align: center;
+    font-family: "roboto", sans-serif;
+    font-size: 24px;
+    color: #e9d83e;
+    margin-bottom: 10px; }
+  .gloria .gloria__texto--parrafo {
+    text-align: justify;
+    font-family: "Assistant", sans-serif;
+    font-size: 20px;
+    color: whitesmoke; }
+
+/*NUESTROS SERVICIOS*/
+.nuestrosServicios__subtitulo {
+  color: whitesmoke;
+  margin: 10px;
+  font-family: "Assistant", sans-serif;
+  font-size: 20px;
+  text-align: center; }
+
+  #sub{
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+.informacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  opacity: 0.9;
+  background-color: #424242;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px; }
+  .informacion .informacion__bloque {
+    flex-wrap: wrap;
+    justify-content: center; }
+  .informacion .informacion__bloque--titulo {
+    text-align: center;
+    font-family: "roboto", sans-serif;
+    font-size: 24px;
+    color: #e9d83e; }
+  .informacion .informacion__bloque--imagen {
+    text-align: center; }
+  .informacion .informacion__bloque--imagenOrder {
+    text-align: center;
+    order: -1; }
+  .informacion .informacion__bloque--texto {
+    text-align: justify;
+    font-family: "Assistant", sans-serif;
+    font-size: 20px;
+    color: white; }
+
+.informacion:hover {
+  opacity: 1;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms; }
+
+/*footer*/
+.footerGS {
+  margin-top: 5px;
+  background-color: #e9d83e;
+  line-height: 1.7;
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  font-style: italic;
+  opacity: 0.8;
+  position: relative;
+  z-index: 1;
+  font-family: 'roboto'sans-serif;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 0px;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  vertical-align: middle; }
+  .footerGS .footerGS__contactanos {
+    text-align: left;
+    padding: 0px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;}
+  .footerGS .footerGS__logo {
+    text-align: right; }
+
+.footerGS__contactanos--nombreEmpresa {
+  font-family: 'roboto' sans-serif;
+  font-weight: 900;
+  font-style: normal; }
+
+.metodosDeContacto {
+  color: black;
+  font-size: 18px;
+  font-style: normal; 
+}
+
+
+.metodosDeContacto a:link {
+  text-decoration: none;
+}
+
+.metodosDeContacto :active {
+  text-decoration: none;
+}
+
+.metodosDeContacto :visited {
+  text-decoration: none;
+}
+
+.telefono {
+  width: 10px; }
+
+.instagram {
+  width: 10px; }
+
+.correoElectronico {
+  width: 12px; }
+
+@media only screen and (max-width: 900px) {
+  /*Inicio*/
+  .inicio0__frase {
+    font-size: 35px;
+    padding-bottom: 30px; }
+  .inicio2__titulo {
+    padding: auto;
+    margin: auto;
+    border-top: solid #eb3d3d; }
+  .inicio2__texto {
+    color: whitesmoke;
+    margin: auto;
+    height: auto;
+    text-align: justify;
+    margin: 10px; }
+  .inicio2__imagen {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px; }
+  .inicio2__imagen--logo {
+    width: 50px; }
+  .row--last {
+    border-bottom: solid #eb3d3d;
+    padding-bottom: 20px;
+    margin-bottom: 30px; }
+  /*quien somos*/
+  .gloria__texto--parrafo {
+    margin: 10px; }
+  /*Nuestros Servicios*/
+  .informacion {
+    opacity: 1;
+    background-color: #333333; }
+  .informacion:hover {
+    opacity: 1; }
+  .informacion__bloque--imagen {
+    order: -1;
+    overflow: hidden; }
+  .informacion__bloque--imagenOrder {
+    overflow: hidden; }
+  /*Propiedades Disponibles*/
+  .tabla__card {
+    display: flex;
+    flex-wrap: wrap; }
+  /*Footer*/
+  .footerGS {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+    .footerGS .footerGS__logo {
+      text-align: center;
+      padding-bottom: 30px; }
+    .footerGS .footerGS__contactanos {
+      text-align: center;
+    }
+    .footerGS .footerGS__contactanos--nombreEmpresa {
+      padding-bottom: 15px; } }
